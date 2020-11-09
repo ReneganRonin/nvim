@@ -68,6 +68,10 @@ source $HOME/.config/nvim/plug-config/quickscope.vim
 if !empty(glob("~/.config/nvim/paths.vim"))
   source $HOME/.config/nvim/paths.vim
 endif
+set guicursor=n-v-c:hor100-Cursor
+set guicursor+=i:ver100-iCursor
+set guicursor+=n-v-c:blinkon0
+set guicursor+=i:blinkwait2
 
 " Better nav for omnicomplete TODO figure out why this is being overridden
 inoremap <expr> <c-j> ("\<C-n>")
