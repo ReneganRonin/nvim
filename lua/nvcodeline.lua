@@ -73,7 +73,7 @@ gls.left[2] = {
                           ['!']  = colors.red,
                           t = colors.red}
       vim.api.nvim_command('hi GalaxyViMode guibg='..mode_color[vim.fn.mode()])
-      return '  Ronin '
+      return '  Renegan Ronin '
     end,
     separator = ' ',
     separator_highlight = {colors.yellow,function()
