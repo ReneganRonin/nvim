@@ -1,7 +1,7 @@
-set guifont=FiraCode\ Nerd\ Font\ Mono:h16
-set guifont=Hack\ Nerd\ Font:h16
-set guifont=NotoEmoji\ Nerd\ Font:h16
-set guifont=FantasqueSansMono\ Nerd\ Font\ Mono:h16
+set guifont=FiraCode\ Nerd\ Font\ Mono:h18
+set guifont=Hack\ Nerd\ Font:h18
+set guifont=Noto\ Color\ Emoji:h18
+set guifont=FantasqueSansMono\ Nerd\ Font\ Mono:h18
 let g:neovide_refresh_rate=30
 let g:neovide_no_idle=v:true
 let g:neovide_cursor_trail_length=0.15
