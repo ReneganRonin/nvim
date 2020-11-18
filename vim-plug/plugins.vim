@@ -15,7 +15,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Convert binary, hex, etc..
     Plug 'glts/vim-radical'
     " Discord Rich Presence
-    Plug 'hugolgst/vimsence'
+    " Plug 'hugolgst/vimsence'
     " Repeat stuff
     Plug 'tpope/vim-repeat'
     " Text Navigation
