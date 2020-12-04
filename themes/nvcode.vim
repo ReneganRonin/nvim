@@ -5,8 +5,8 @@ syntax on
 " colorscheme ronincode
 " colorscheme nord
 " colorscheme nvcode
-" colorscheme onedark
-colorscheme snazzy
+colorscheme onedark
+" colorscheme snazzy
 " colorscheme aurora
 
 
