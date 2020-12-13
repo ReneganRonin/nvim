@@ -10,4 +10,4 @@ let g:neovide_cursor_vfx_mode = "railgun"
 " let g:neovide_cursor_vfx_mode = "wireframe"
 let g:neovide_cursor_vfx_particle_lifetime=10
 let g:neovide_cursor_vfx_particle_curl=0.5
-let g:neovide_transparency=0.9
+let g:neovide_transparency=0.95
