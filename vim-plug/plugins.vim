@@ -24,12 +24,22 @@ Plug 'suy/vim-context-commentstring'
 " highlight all matches under cursor
 " Plug 'RRethy/vim-illuminate'
 
-if exists('g:vscode')
-  " Easy motion for VSCode
-  " Plug 'asvetliakov/vim-easymotion'
-  Plug 'ChristianChiarulli/vscode-easymotion'
-  Plug 'machakann/vim-highlightedyank'
-else
+    " Better Comments
+    Plug 'tpope/vim-commentary'
+    " Change dates fast
+    Plug 'tpope/vim-speeddating'
+    " Convert binary, hex, etc..
+    Plug 'glts/vim-radical'
+    " Discord Rich Presence
+    " Plug 'hugolgst/vimsence'
+    " Repeat stuff
+    Plug 'tpope/vim-repeat'
+    " Text Navigation
+    Plug 'unblevable/quick-scope'
+    " Useful for React Commenting 
+    Plug 'suy/vim-context-commentstring'
+    " highlight all matches under cursor
+    " Plug 'RRethy/vim-illuminate'
 
   " Easymotion
   Plug 'easymotion/vim-easymotion'
