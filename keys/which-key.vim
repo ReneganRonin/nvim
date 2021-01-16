@@ -53,8 +53,20 @@ let g:which_key_map['u'] = [ ':UndotreeToggle'                                 ,
 let g:which_key_map['v'] = [ '<C-W>v'                                          , 'split right']
 let g:which_key_map['W'] = [ ':call WindowSwap#EasyWindowSwap()'               , 'move window' ]
 let g:which_key_map['z'] = [ 'Goyo'                                            , 'zen' ]
+" let g:which_key_map['R'] = [ ':CocCommand rust-analyzer.run'                    , 'rust-analyzer run']
 
 " Group mappings
+" r is for rust stuff
+let g:which_key_map.R = {
+      \ 'name' : '+rust-analyzer' ,
+      \ 'r' : [':CocCommand rust-analyzer.run'   , 'ra run'],
+      \ 'e' : [':CocCommand rust-analyzer.expandMacro'   , 'ra expand macro'],
+      \ 'o' : [':CocCommand rust-analyzer.openDocs'   , 'ra open docs'],
+      \ 'd' : [':CocCommand rust-analyzer.reload'   , 'ra reload'],
+      \ 'x' : [':CocCommand rust-analyzer.explainError'   , 'ra rust explain'],
+      \ 's' : [':CocCommand rust-analyzer.analyzerStatus'   , 'ra status'],
+      \ 'm' : [':CocCommand rust-analyzer.memoryUsage'   , 'ra memory usage'],
+      \ }
 
 " a is for actions
 let g:which_key_map.a = {
