@@ -6,8 +6,11 @@ syntax on
 " colorscheme nord
 " colorscheme nvcode
 " colorscheme onedark
-" colorscheme TSnazzy
-colorscheme aurora
+" colorscheme snazzy
+" colorscheme aurora
+colorscheme dracula
+" colorscheme palenight
+
 
 
 " checks if your terminal has 24-bit color support
