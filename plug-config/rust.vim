@@ -1,10 +1,11 @@
 " Use LSP omni-completion in Rust files
 autocmd Filetype rust setlocal omnifunc=v:lua.vim.lsp.omnifunc
 
-" nnoremap <leader>c :!cargo clippy
+nnoremap <leader>c :!cargo clippy
 
 " rustfmt on write using autoformat
-autocmd BufWrite * :Autoformat
+augroup rust_config
+  au!
+  autocmd BufWritePost,BufWrite,BufRead *.rs :Autoformat
+augroup END
 
-"TODO: clippy on write
-autocmd BufWrite * :Autoformat
