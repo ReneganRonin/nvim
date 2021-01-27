@@ -16,6 +16,6 @@ colorscheme dracula
 " checks if your terminal has 24-bit color support
 if (has("termguicolors"))
     set termguicolors
-    hi Normal ctermbg=NONE guibg=NONE
+    " hi Normal ctermbg=NONE guibg=NONE
     hi LineNr ctermbg=NONE
 endif
