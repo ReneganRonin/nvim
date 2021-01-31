@@ -349,7 +349,7 @@ let g:which_key_map.t = {
       \ 'm' : [':FloatermNew lazynpm'                           , 'npm'],
       \ 'r' : [':FloatermNew ranger'                            , 'ranger'],
       \ 't' : [':FloatermToggle'                                , 'toggle'],
-      \ 'b' : [':FloatermNew bottom'                              , 'btm'],
+      \ 'b' : [':FloatermNew btm'                              , 'bottom'],
       \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
       \ }
 
