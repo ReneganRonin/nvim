@@ -7,6 +7,12 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
+    Plug 'anott03/nvim-lspinstall'
+" Julia
+    " Plug 'JuliaEditorSupport/julia-vim' <- not working comfortably with other stuff
+    Plug 'autozimu/LanguageClient-neovim', {'branch': 'next', 'do': 'bash install.sh'}
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'kdheepak/JuliaFormatter.vim'
 " Better autoformat
     Plug 'Chiel92/vim-autoformat'
 " Better Comments
@@ -35,8 +41,6 @@ else
     Plug 'tpope/vim-speeddating'
 " Convert binary, hex, etc..
     Plug 'glts/vim-radical'
-" Discord Rich Presence
-" Plug 'hugolgst/vimsence'
 " Repeat stuff
     Plug 'tpope/vim-repeat'
 " Text Navigation
@@ -75,8 +79,7 @@ else
     Plug 'kevinhwang91/rnvimr'
 " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
-    Plug 'junegunn/fzf.vim'
+    " Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/rpc' }
 " Git
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
@@ -174,7 +177,6 @@ else
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
-    Plug 'junegunn/fzf.vim'
     " Git
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
